@@ -65,3 +65,7 @@
   /* z-index: 99999; */
 }
 
+.go-cards.cards .cards-card-body {
+  margin: 0px;
+  text-transform: uppercase; 
+}
