@@ -18,3 +18,34 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+/* My changes*/
+
+footer {
+  background-color: var(--text-color);
+  font-size: var(--body-font-size-xs);
+  color: #ffff;
+}
+.footer.block a {
+  color: #ffff;
+  font-size: var(--fontSizeSmall, 14px);
+  padding: 15px 17px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.footer.block a :hover {
+ 
+  text-decoration: underline;
+}
+.section.footer-section p:first-of-type {
+  font-size: 50px;
+  padding: 10px 0px 20px;
+}
+.footer.block p:nth-of-type(2) {
+  position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: flex-start;
+    margin-top: -5.5rem;
+    padding: 10px
+}

@@ -15,7 +15,10 @@
 .cards .cards-card-body {
   margin: 16px;
 }
-
+.cards.background-cards.block  .cards-card-body {
+  margin: 72px;
+  padding: 78px;
+}
 .cards .cards-card-image {
   line-height: 0;
 }
@@ -25,3 +28,40 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.cards.fullrow-cards.block ul {
+  display:block
+}
+.cards.go-cards.block .cards-card-body p {
+  overflow: hidden;
+ 
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: dimgray;
+}
+.cards.go-cards.block .cards-card-body p strong {
+  width: 100%;
+  color: black;
+}
+
+.cards.go-cards.block > ul > li {
+  border: 0px solid #dadada;
+}
+.cards.background-cards.cards > ul {
+  display: unset;
+    object-fit: cover;
+   max-width:auto;
+}
+.cards.background-cards.block  ul > li{
+  border: 0px solid #dadada;
+}
+
+.cards.background-cards.block .cards-card-body {
+  border: 0px solid #dadada;
+  position: relative;
+  margin-top: -15rem;
+  background: #ffff;
+  /* z-index: 99999; */
+}
+

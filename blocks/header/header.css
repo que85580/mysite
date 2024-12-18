@@ -1,9 +1,19 @@
 /* header and nav layout */
+/*header .nav-wrapper {
+  background-color: var(--background-color);
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+}*/
 header .nav-wrapper {
   background-color: var(--background-color);
   width: 100%;
   z-index: 2;
   position: fixed;
+  margin-top: 0;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  
 }
 
 header nav {
@@ -171,6 +181,7 @@ header nav .nav-sections ul {
 
 header nav .nav-sections ul > li {
   font-weight: 500;
+  padding: 15px 17px;
 }
 
 header nav .nav-sections ul > li > ul {
@@ -199,7 +210,7 @@ header nav .nav-sections ul > li > ul > li {
   }
 
   header nav .nav-sections .nav-drop::after {
-    content: '';
+    /*content: '';*/
     display: inline-block;
     position: absolute;
     top: 0.5em;
@@ -210,6 +221,10 @@ header nav .nav-sections ul > li > ul > li {
     border: 2px solid currentcolor;
     border-radius: 0 1px 0 0;
     border-width: 2px 2px 0 0;
+    
+  }
+  .nav-drop:hover { background-color: #ffea00; 
+    
   }
 
   header nav .nav-sections .nav-drop[aria-expanded='true']::after {
@@ -222,6 +237,7 @@ header nav .nav-sections ul > li > ul > li {
     display: flex;
     gap: 24px;
     margin: 0;
+    flex-direction: row-reverse;
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
@@ -265,4 +281,9 @@ header nav .nav-sections ul > li > ul > li {
 /* tools */
 header nav .nav-tools {
   grid-area: tools;
+}
+.nav-wrapper.shrink {
+  padding: 15px;
+  margin: 0px;
+ /* transition: all 0.3s ease;*/
 }
