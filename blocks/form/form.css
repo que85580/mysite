@@ -168,7 +168,7 @@
   .form .toggle-wrapper input:checked + .slider::before {
     transform: translateX(24px);
   }
-  .form-wrapper {
+ /* .form-wrapper {
     left: 50%;
     position: fixed;
     top: 50%;
@@ -185,4 +185,4 @@
     max-width: 450px;
     padding: 2rem 1.75rem !important;
     color:#ffff
-}
+}*/
