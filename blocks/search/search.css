@@ -2,14 +2,14 @@
 .search .search-box {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 1ch;
+  gap: 0ch;
   align-items: center;
 }
 
 .search .search-box input {
   box-sizing: border-box;
   display: block;
-  width: 100%;
+  width: 70%;
   margin: 0;
   padding: 0.5em;
   border-radius: 4px;
@@ -134,4 +134,7 @@
   height: 24px;
   width: 24px;
   border-radius: 50%;
+}
+.library-metadata-wrapper {
+  display: none;
 }
