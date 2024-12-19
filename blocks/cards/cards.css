@@ -81,4 +81,17 @@
   width: 164px;
   margin-bottom: 7px;
   margin-top: 7px;
+
 }
+.about-cards .cards-card-body{
+  text-align: start;
+}
+.cards.go-cards.about-cards.block p{
+  -ms-flex-pack: center;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: start;
+  align-content: flex-start;
+}
+.cards.go-cards.about-cards.block p a
+{padding: 2px;background-color: black;color: white;}
