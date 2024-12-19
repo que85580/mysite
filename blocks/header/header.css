@@ -287,3 +287,9 @@ header nav .nav-tools {
   margin: 0px;
  /* transition: all 0.3s ease;*/
 }
+
+.nav-wrapper .default-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
