@@ -116,6 +116,7 @@ export default async function decorate(block) {
     slideIndicators.classList.add('carousel-slide-indicators');
     slideIndicatorsNav.append(slideIndicators);
     block.append(slideIndicatorsNav);
+
     const slideNavButtons = document.createElement('div');
     slideNavButtons.classList.add('carousel-navigation-buttons');
     slideNavButtons.innerHTML = `
@@ -131,7 +132,6 @@ export default async function decorate(block) {
     slidesWrapper.append(slide);
 
     if (slideIndicators) {
-   
       const indicator = document.createElement('li');
       indicator.classList.add('carousel-slide-indicator');
       indicator.dataset.targetSlide = idx;

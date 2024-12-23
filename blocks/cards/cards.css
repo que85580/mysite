@@ -8,17 +8,14 @@
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
+  border: 0px solid #dadada;
   background-color: var(--background-color);
 }
 
 .cards .cards-card-body {
   margin: 16px;
 }
-.cards.background-cards.block  .cards-card-body {
-  margin: 72px;
-  padding: 78px;
-}
+
 .cards .cards-card-image {
   line-height: 0;
 }
@@ -47,23 +44,13 @@
 
 .cards.go-cards.block > ul > li {
   border: 0px solid #dadada;
-}
-.cards.background-cards.cards > ul {
-  display: unset;
-    object-fit: cover;
-   max-width:auto;
-}
-.cards.background-cards.block  ul > li{
-  border: 0px solid #dadada;
+  clear: both !important;
+  display: block;
+  float: unset !important;
+  margin: 0 auto !important;
+  max-width: 873pt !important;
 }
 
-.cards.background-cards.block .cards-card-body {
-  border: 0px solid #dadada;
-  position: relative;
-  margin-top: -15rem;
-  background: #ffff;
-  /* z-index: 99999; */
-}
 
 .go-cards.cards .cards-card-body {
   margin: 0px;
@@ -95,3 +82,63 @@
 }
 .cards.go-cards.about-cards.block p a
 {padding: 2px;background-color: black;color: white;}
+
+.cards-card-body p {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.cards .cards-card-body {
+  margin: 0;
+}
+.cards-card-body h6 {
+  color: dimgray;  
+}
+.cards.go-cards.about-cards.block {
+  margin: 30px;
+}
+
+
+
+
+a.button-icon {
+  background: var(--text-color);
+          border-radius: 0;
+          padding: 0.3em 1em;
+}
+.social-links {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      gap: 0.05rem;
+      justify-content: center;
+      .icon {
+          font-family: "wknd-icon-fonts";
+      }
+
+      .icon-facebook::before {
+          content: "\e905";
+      }
+
+      .icon-twitter::before {
+          content: "\e904";
+      }
+
+      .icon-instagram::before {
+          content: "\e906";
+      }
+
+      .button {
+          background: var(--text-color);
+          border-radius: 0;
+          padding: 0.3em 1em;
+      }
+  }
+  .section.carousel-container.columns-container.cards-container .social-links {
+    display:none;
+}
+
+.cards.go-cards.my-listcard.block .social-links {
+  display:none;
+}

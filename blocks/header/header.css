@@ -176,7 +176,7 @@ header nav[aria-expanded='true'] .nav-sections {
 header nav .nav-sections ul {
   list-style: none;
   padding-left: 0;
-  font-size: var(--body-font-size-s);
+  font-size: var(--body-font-size-xs);
 }
 
 header nav .nav-sections ul > li {
@@ -235,9 +235,7 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections ul {
     display: flex;
-    gap: 24px;
-    margin: 0;
-    flex-direction: row-reverse;
+ 
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
@@ -290,6 +288,10 @@ header nav .nav-tools {
 
 .nav-wrapper .default-content-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.nav-wrapper .default-content-wrapper ul>li:hover {
+  cursor: pointer;
+  background:#ffea00
 }

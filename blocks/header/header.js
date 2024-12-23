@@ -164,4 +164,11 @@ export default async function decorate(block) {
   navWrapper.append(nav);
   block.append(navWrapper);
 }
-
+const navbar=document.querySelector('.nav-wrapper')
+window.addEventListener('scroll',()=>{
+    if(window.scrollY>50){
+        navbar.classList.add('shrink');}
+    else{
+        navbar.classList.remove('shrink'); 
+    }
+});
