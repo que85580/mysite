@@ -94,6 +94,12 @@
 }
 .cards-card-body h6 {
   color: dimgray;  
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1; /* start showing ellipsis when 3rd line is reached */
+  white-space: pre-wrap;
+  text-transform: uppercase; 
 }
 .cards.go-cards.about-cards.block {
   margin: 30px;
@@ -115,6 +121,7 @@ a.button-icon {
       padding-top: 1rem;
       .icon {
           font-family: "wknd-icon-fonts";
+          color: white;
       }
 
       .icon-facebook::before {

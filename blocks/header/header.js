@@ -164,11 +164,20 @@ export default async function decorate(block) {
   navWrapper.append(nav);
   block.append(navWrapper);
 }
-const navbar=document.querySelector('.nav-wrapper')
-window.addEventListener('scroll',()=>{
-    if(window.scrollY>50){
-        navbar.classList.add('shrink');}
-    else{
-        navbar.classList.remove('shrink'); 
-    }
-});
+// Function to handle scroll events
+function handleScroll() {
+  const navWrapper = document.querySelector('.nav-wrapper'); // Assuming the nav-wrapper is the target element
+
+  if (window.scrollY > 0) {
+    // If the page is scrolled, add the 'shrink' class
+    navWrapper.classList.add('shrink');
+    navWrapper.classList.remove('nav-bar'); // Optionally remove 'nav-bar' class if already added
+  } else {
+    // If the page is at the top, remove the 'shrink' class and add 'nav-bar'
+    navWrapper.classList.remove('shrink');
+    navWrapper.classList.add('nav-bar');
+  }
+}
+
+// Add scroll event listener
+window.addEventListener('scroll', handleScroll);

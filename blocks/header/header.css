@@ -13,8 +13,11 @@ header .nav-wrapper {
   margin-top: 0;
   padding-bottom: 50px;
   padding-top: 50px;
+  background-color: var(--bodyBackground, #fff);
   
+  -webkit-transition: padding-bottom 0s ease, padding-top 0s;
 }
+
 
 header nav {
   box-sizing: border-box;
@@ -283,7 +286,8 @@ header nav .nav-tools {
 .nav-wrapper.shrink {
   padding: 15px;
   margin: 0px;
- /* transition: all 0.3s ease;*/
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, .26);
+  -webkit-transition: padding-bottom .5s ease, padding-top .5s;
 }
 
 .nav-wrapper .default-content-wrapper {
