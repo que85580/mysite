@@ -111,7 +111,6 @@ a.button-icon {
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      gap: 0.05rem;
       justify-content: center;
       .icon {
           font-family: "wknd-icon-fonts";
