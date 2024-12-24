@@ -49,3 +49,30 @@ footer {
     margin-top: -5.5rem;
     padding: 10px
 }
+
+
+@media(max-width: 767px) {
+.section.footer-section p:first-of-type {
+  font-size: 50px;
+  padding: 10px 0px 20px;
+  display: grid
+;
+  align-items: start;
+  align-content: center;
+  justify-items: start;
+}
+footer .footer p {
+  margin: 0px;
+}
+.footer.block p:nth-of-type(2) {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: flex-start;
+  margin-top: 0em;
+  padding: 0px;
+}
+  .footer.block p {
+    font-size: 9pt;}
+  }

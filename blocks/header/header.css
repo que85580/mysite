@@ -299,3 +299,78 @@ header nav .nav-tools {
   cursor: pointer;
   background:#ffea00
 }
+
+
+
+@media(max-width: 767px) {
+
+
+
+  header nav .nav-hamburger {
+      position: absolute;
+      grid-area: hamburger;
+      display: flex;
+      justify-content: center;
+       left: 2%;
+      top: 40%;
+    }
+    header nav {
+         display: ruby-text;
+        box-sizing: border-box;
+        
+       }
+       header .nav-wrapper {
+        padding-bottom: 0px;
+        padding-top: 0px;
+       }
+    .search-wrapper .icon.icon-search {
+        position: absolute !important;
+        right: 45% !important;
+    }
+    .search .search-box input {
+        width: 66% !important;
+        margin: 0px !important;
+       }
+    .section.nav-brand {
+        margin: .5rem;
+    }
+    .nav-wrapper.shrink {
+      height: 6.5rem;
+    }
+    .carousel-slide-image picture {
+      -webkit-box-flex: 1;
+         -ms-flex: 1;
+         flex: 1;
+         height: 25pc;
+         max-height: 25pc;
+         overflow: hidden;
+         width: 100%;
+     }
+     .carousel .carousel-slide .carousel-slide-content {
+      z-index: 1;
+      margin: 0px;
+      padding: 0px;
+      top: 2%;
+      margin-top: 24rem;
+  }
+     p {
+             line-height: 1.5;
+         text-align: left;
+     }
+     .carousel .carousel-slide-indicators {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+       padding: 10px;
+      align-content: flex-start;
+      flex-wrap: wrap;
+      margin: .5em 0 0 -0.9rem;
+      flex-direction: row;
+     }
+     .columns > div > .columns-img-col {
+      order: 2;
+  }
+  .cards-card-body h6 {
+    font-size: 14px;
+  }
+}

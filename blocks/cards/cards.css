@@ -149,3 +149,42 @@ a.button-icon {
 .cards.go-cards.my-listcard.block .social-links {
   display:none;
 }
+
+@media(max-width: 767px) {
+h2#our-contributors 
+  {
+  font-size: 36px;
+ }
+  h1#about-us {
+     font-size: 40px;
+ }
+ .section.cards-container
+  p >em {
+     font-size: 14px;
+ }
+ h2#wknd-guides {
+  font-size:36px;
+}
+
+h2#wknd-guides p {
+  font-size: 14px;
+}
+
+.cards.go-cards.about-cards.block p {
+  font-size: 14px;
+}
+
+
+.cards.go-cards.about-cards.block h3 {
+  font-size:24px;
+}
+
+} 
+.section.footer-section p {
+  font-size:12px
+}
+.section.cards-container p {
+  font-style:italic;
+   font-size:14px
+   
+}

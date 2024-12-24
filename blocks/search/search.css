@@ -23,7 +23,7 @@
 }
 .search-wrapper .icon.icon-search {
   position: absolute;
-  right: 24%;
+  right: 26%;
   }
 .search .search-box input:hover {
   border: 1px solid var(--text-color);
