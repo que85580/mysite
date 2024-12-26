@@ -296,6 +296,8 @@ button:disabled:hover {
 }
 u {
   text-decoration-color: #ffea00;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 3px;
 }
 .cards-card-body >p> strong {
   text-transform: uppercase;  

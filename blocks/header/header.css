@@ -373,4 +373,35 @@ header nav .nav-tools {
   .cards-card-body h6 {
     font-size: 14px;
   }
+  header nav .nav-sections ul > li {
+    font-size: 14px;
+    font-weight: 200;
+    position: relative;
+    top: 5rem;
+    margin-bottom: -1.5rem;
+    width: 275px;
+    height: 31px;
+    float: left;
+    right: 3rem;
+    background: #202020;
+    border-top: 1px solid hsla(0, 0%, 100%, .05);
+    color: var(--textColorInverse, #ebebeb);
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 1em;
+  }
+.search-wrapper {
+    position: absolute;
+    left: 11rem;
+    top: 0.5rem;
+}
+.nav-wrapper .default-content-wrapper {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: fixed;
+    top: -2rem;
+}
+
 }
