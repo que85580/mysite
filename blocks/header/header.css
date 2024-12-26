@@ -312,7 +312,7 @@ header nav .nav-tools {
       display: flex;
       justify-content: center;
        left: 2%;
-      top: 40%;
+      top: 2.5rem;
     }
     header nav {
          display: ruby-text;
@@ -382,7 +382,7 @@ header nav .nav-tools {
     width: 275px;
     height: 31px;
     float: left;
-    right: 3rem;
+    right: 4rem;
     background: #202020;
     border-top: 1px solid hsla(0, 0%, 100%, .05);
     color: var(--textColorInverse, #ebebeb);
@@ -391,17 +391,20 @@ header nav .nav-tools {
     line-height: 44px;
     padding: 0 1em;
   }
-.search-wrapper {
+  .search-wrapper {
     position: absolute;
-    left: 11rem;
-    top: 0.5rem;
+    left: 12rem;
+    top: 0.8rem;
 }
 .nav-wrapper .default-content-wrapper {
     flex-wrap: wrap;
     justify-content: flex-start;
     flex-direction: column;
     position: fixed;
-    top: -2rem;
+    top: -0.5rem;
+    /* right: -4rem; */
+    left: 4rem;
 }
+
 
 }
