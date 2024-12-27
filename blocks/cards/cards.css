@@ -195,6 +195,7 @@ h2#wknd-guides p {
   font-size: var(--fontSizeSmall, 14px);
   padding: .5em 1em;
   text-transform: uppercase;
+  pointer-events: none;
 }
 
 .cards.go-cards.my-listcard.blur-card.block strong {
