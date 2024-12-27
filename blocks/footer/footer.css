@@ -12,6 +12,9 @@ footer .footer > div {
 footer .footer p {
   margin: 0;
 }
+.section.footer-section p {
+  font-size:12px
+}
 
 @media (width >= 900px) {
   footer .footer > div {
