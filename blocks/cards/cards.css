@@ -183,3 +183,37 @@ h2#wknd-guides p {
 .section.footer-section p {
   font-size:12px
 }
+
+
+.cards.go-cards.my-listcard.blur-card.block > ul > li {
+  opacity: .65;
+}
+
+.cards.go-cards.my-listcard.blur-card.block a {
+  background-color: #ebebeb;
+  color: dimgray;
+  font-size: var(--fontSizeSmall, 14px);
+  padding: .5em 1em;
+  text-transform: uppercase;
+}
+
+.cards.go-cards.my-listcard.blur-card.block strong {
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: -webkit-gradient(linear, right bottom, left top, from(hsla(0, 0%, 100%, 0)), color-stop(50%, hsla(0, 0%, 100%, 0)), color-stop(50%, var(--brandPrimary, #ffea00)), to(var(--brandPrimary, #ffea00)));
+  background: linear-gradient(to top left, hsla(0, 0%, 60%, 0) 0, hsla(0, 0%, 100%, 0) 69%, var(--brandPrimary, #ffea00) 3%, var(--brandPrimary, #ffea00) 69%);
+  color: #000;
+  content: "";
+  font-family: wknd-icon-font !important;
+  font-size: 1.25rem;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 1;
+  padding: 9pt;
+  text-transform: none;
+  top: 49px;
+  z-index: 2;
+}
