@@ -348,6 +348,32 @@ padding-top: 20px;
 flex:7;
 }
 
+
+
 .columns.magzine-page.block.columns-2-cols div > div:last-child {
 flex:3;
+}
+
+
+
+
+.magzine-page li >pre {
+  border-left: 5px solid var(--brandThird, #ebebeb);
+  font-weight: 400;
+  float: left;
+  height: 65pt;
+  list-style-type: none;
+  background:white;
+  width: 274px;
+  border-radius: unset;
+}
+.magzine-page li {
+ list-style-type: none; 
+ cursor: pointer; 
+}
+
+.magzine-page li >pre:hover {
+  background: var(--brandPrimary, #ffea00);
+  border-color: var(--textColor, #202020);
+
 }
