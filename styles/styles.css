@@ -334,3 +334,20 @@ h1#ultimate-guide-to-la-skateparks {
 h1#magazine {
   margin-top: 6rem;
 }
+
+.columns.magzine-page.block.columns-2-cols {
+  height: 100%;
+
+top: 0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+
+
+.columns.magzine-page.block.columns-2-cols div > div:first-child {
+flex:7;
+}
+
+.columns.magzine-page.block.columns-2-cols div > div:last-child {
+flex:3;
+}
